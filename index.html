@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NW4 Businesses Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+    <h1>Businesses in NW4</h1>
+    <label for="sic-filter">Filter by SIC Code:</label>
+    <select id="sic-filter">
+        <option value="">All</option>
+    </select>
+    <p id="business-count">Total businesses mapped: 0</p>
+    <div id="map" style="height: 600px;"></div>
+    <script>
+        var map = L.map('map').setView([51.5866, -0.2217], 14);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        var businesses = [];
+        var markers = [];
+
+        // Load CSV data
+        Papa.parse("nw4_geocoded_companies_with_sic.csv", {
+            download: true,
+            header: true,
+            complete: function(results) {
+                businesses = results.data;
+                populateSICFilter(businesses);
+                displayBusinesses(businesses);
+            }
+        });
+
+        // Populate SIC code dropdown
+        function populateSICFilter(data) {
+            var sicCodes = new Set();
+            data.forEach(function(row) {
+                if (row["SICCode.SicText_1"]) {
+                    sicCodes.add(row["SICCode.SicText_1"].trim());
+                }
+            });
+            var filter = document.getElementById("sic-filter");
+            sicCodes.forEach(function(sic) {
+                var option = document.createElement("option");
+                option.value = sic;
+                option.textContent = sic;
+                filter.appendChild(option);
+            });
+            filter.addEventListener("change", function() {
+                filterBusinesses(this.value);
+            });
+        }
+
+        // Display businesses on the map
+        function displayBusinesses(data) {
+            clearMarkers();
+            data.forEach(function(row) {
+                if (row.Latitude && row.Longitude) {
+                    var marker = L.marker([row.Latitude, row.Longitude]).addTo(map)
+                        .bindPopup(`
+                            <b>${row["CompanyName"]}</b><br>
+                            ${row["RegAddress.AddressLine1"] || ""} ${row["RegAddress.AddressLine2"] || ""}<br>
+                            ${row["RegAddress.PostTown"] || ""} ${row["RegAddress.PostCode"] || ""}<br>
+                            SIC: ${row["SICCode.SicText_1"] || "N/A"}<br>
+                            <a href="${row["URI"]}" target="_blank">View Details</a>
+                        `);
+                    markers.push(marker);
+                }
+            });
+            updateBusinessCount(data.length); // Update the business count
+        }
+
+        // Filter businesses by SIC code
+        function filterBusinesses(sic) {
+            var filtered = businesses.filter(function(row) {
+                return !sic || (row["SICCode.SicText_1"] && row["SICCode.SicText_1"].includes(sic));
+            });
+            displayBusinesses(filtered);
+        }
+
+        // Clear existing markers
+        function clearMarkers() {
+            markers.forEach(function(marker) {
+                map.removeLayer(marker);
+            });
+            markers = [];
+        }
+
+        // Update the business count
+        function updateBusinessCount(count) {
+            var countElement = document.getElementById("business-count");
+            countElement.textContent = `Total businesses mapped: ${count}`;
+        }
+    </script>
+</body>
+</html>

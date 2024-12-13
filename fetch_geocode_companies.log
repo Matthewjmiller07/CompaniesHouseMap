@@ -1,0 +1,789 @@
+2024-12-12 10:06:29,183 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:06:29,840 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /search/companies?q=NW4 HTTP/11" 401 53
+2024-12-12 10:06:29,842 - ERROR - Error fetching companies for postcode NW4: 401 Client Error: Unauthorized for url: https://api.company-information.service.gov.uk/search/companies?q=NW4
+2024-12-12 10:06:29,849 - WARNING - No data found for the specified postcode.
+2024-12-12 10:06:29,852 - INFO - Data saved to nw4_geocoded_companies_with_sic.csv
+2024-12-12 10:52:32,813 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:33,482 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /search/companies?q=NW4 HTTP/11" 200 11687
+2024-12-12 10:52:33,483 - INFO - Successfully fetched companies for postcode NW4.
+2024-12-12 10:52:33,486 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:34,147 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=643++Watford+Way%2C+Apex+Corner%2C+London%2C+NW7+3JR&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:34,148 - WARNING - No geocode results for address: 643  Watford Way, Apex Corner, London, NW7 3JR.
+2024-12-12 10:52:34,151 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:34,558 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/05670973 HTTP/11" 200 None
+2024-12-12 10:52:34,559 - INFO - Fetched SIC codes for company 05670973: ['7031']
+2024-12-12 10:52:34,560 - INFO - Processed company: NW4 LIMITED.
+2024-12-12 10:52:34,562 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:34,816 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=18+Beaconsfield+Road%2C+London%2C+England%2C+NW10+2JG&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:34,817 - WARNING - No geocode results for address: 18 Beaconsfield Road, London, England, NW10 2JG.
+2024-12-12 10:52:34,821 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:35,214 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14389115 HTTP/11" 200 None
+2024-12-12 10:52:35,217 - INFO - Fetched SIC codes for company 14389115: ['81299']
+2024-12-12 10:52:35,218 - INFO - Processed company: NW4 CLEANING LTD.
+2024-12-12 10:52:35,221 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:35,523 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=35+Watford+Way%2C+London%2C+NW4+3JH&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:35,525 - WARNING - No geocode results for address: 35 Watford Way, London, NW4 3JH.
+2024-12-12 10:52:35,529 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:35,955 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/03204793 HTTP/11" 200 None
+2024-12-12 10:52:35,956 - INFO - Fetched SIC codes for company 03204793: ['45400']
+2024-12-12 10:52:35,957 - INFO - Processed company: NW4 MOTORCYCLES LTD.
+2024-12-12 10:52:35,960 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:36,207 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=Handel+House%2C+95+High+Street%2C+Edgware%2C+England%2C+HA8+7DB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:36,208 - WARNING - No geocode results for address: Handel House, 95 High Street, Edgware, England, HA8 7DB.
+2024-12-12 10:52:36,210 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:36,643 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13732926 HTTP/11" 200 None
+2024-12-12 10:52:36,644 - INFO - Fetched SIC codes for company 13732926: ['68209']
+2024-12-12 10:52:36,645 - INFO - Processed company: NW4 PROPERTY LIMITED.
+2024-12-12 10:52:36,648 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:36,906 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=45+Chase+Court+Gardens%2C+Enfield%2C+England%2C+EN2+8DJ&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:36,907 - WARNING - No geocode results for address: 45 Chase Court Gardens, Enfield, England, EN2 8DJ.
+2024-12-12 10:52:36,911 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:37,339 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12766437 HTTP/11" 200 None
+2024-12-12 10:52:37,340 - INFO - Fetched SIC codes for company 12766437: ['56101']
+2024-12-12 10:52:37,341 - INFO - Processed company: NW4 3AS LTD.
+2024-12-12 10:52:37,344 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:37,604 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=662+High+Road%2C+London%2C+England%2C+N12+0NL&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:37,605 - WARNING - No geocode results for address: 662 High Road, London, England, N12 0NL.
+2024-12-12 10:52:37,607 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:38,026 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12507841 HTTP/11" 200 None
+2024-12-12 10:52:38,028 - INFO - Fetched SIC codes for company 12507841: ['41100', '43120']
+2024-12-12 10:52:38,029 - INFO - Processed company: NW4 DEVELOPMENTS LTD.
+2024-12-12 10:52:38,032 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:38,280 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=16++Glebe+Crescent%2C+London%2C+United+Kingdom%2C+NW4+1BU&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:38,280 - WARNING - No geocode results for address: 16  Glebe Crescent, London, United Kingdom, NW4 1BU.
+2024-12-12 10:52:38,283 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:38,694 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11444579 HTTP/11" 200 None
+2024-12-12 10:52:38,695 - INFO - Fetched SIC codes for company 11444579: ['45112']
+2024-12-12 10:52:38,696 - INFO - Processed company: NW4 CARS LTD.
+2024-12-12 10:52:38,699 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:38,952 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=19++Brent+Street%2C+Flat+2%2C+London%2C+United+Kingdom%2C+NW4+2EU&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:38,953 - WARNING - No geocode results for address: 19  Brent Street, Flat 2, London, United Kingdom, NW4 2EU.
+2024-12-12 10:52:38,956 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:39,376 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11179126 HTTP/11" 200 None
+2024-12-12 10:52:39,377 - INFO - Fetched SIC codes for company 11179126: ['81210']
+2024-12-12 10:52:39,378 - INFO - Processed company: NW4 CARPET CLEANING LIMITED.
+2024-12-12 10:52:39,380 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:39,633 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=1+Crown+Cottage+Farnham+Road%2C+Farnham+Royal%2C+Slough%2C+England%2C+SL2+3AS&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:39,634 - WARNING - No geocode results for address: 1 Crown Cottage Farnham Road, Farnham Royal, Slough, England, SL2 3AS.
+2024-12-12 10:52:39,638 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:40,061 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14508819 HTTP/11" 200 None
+2024-12-12 10:52:40,063 - INFO - Fetched SIC codes for company 14508819: ['53202']
+2024-12-12 10:52:40,063 - INFO - Processed company: NW44 LIMITED.
+2024-12-12 10:52:40,066 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:40,321 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=115+Craven+Park+Road%2C+London%2C+England%2C+N15+6BL&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:40,321 - WARNING - No geocode results for address: 115 Craven Park Road, London, England, N15 6BL.
+2024-12-12 10:52:40,323 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:40,743 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15636194 HTTP/11" 200 None
+2024-12-12 10:52:40,745 - INFO - Fetched SIC codes for company 15636194: ['68209']
+2024-12-12 10:52:40,745 - INFO - Processed company: NW49 LTD.
+2024-12-12 10:52:40,748 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:40,999 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=35+Ballards+Lane%2C+London%2C+United+Kingdom%2C+N3+1XW&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:41,000 - WARNING - No geocode results for address: 35 Ballards Lane, London, United Kingdom, N3 1XW.
+2024-12-12 10:52:41,003 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:41,418 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/07322808 HTTP/11" 200 None
+2024-12-12 10:52:41,419 - INFO - Fetched SIC codes for company 07322808: ['99999']
+2024-12-12 10:52:41,420 - INFO - Processed company: BURNHAM COURT NW4 RTM COMPANY LIMITED.
+2024-12-12 10:52:41,422 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:41,682 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=Flat+1+Halkin+House%2C+1+Downage%2C+London%2C+England%2C+NW4+1AR&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:41,683 - WARNING - No geocode results for address: Flat 1 Halkin House, 1 Downage, London, England, NW4 1AR.
+2024-12-12 10:52:41,689 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:42,119 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09323416 HTTP/11" 200 None
+2024-12-12 10:52:42,120 - INFO - Fetched SIC codes for company 09323416: ['98000']
+2024-12-12 10:52:42,122 - INFO - Processed company: HALKIN HOUSE NW4 FREEHOLD LIMITED.
+2024-12-12 10:52:42,124 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:42,375 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:42,376 - WARNING - No geocode results for address: The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE.
+2024-12-12 10:52:42,379 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:42,799 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09799188 HTTP/11" 200 None
+2024-12-12 10:52:42,800 - INFO - Fetched SIC codes for company 09799188: ['68100']
+2024-12-12 10:52:42,801 - INFO - Processed company: LINEA NW4 LTD.
+2024-12-12 10:52:42,803 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:43,064 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=45+Chase+Court+Gardens%2C+Enfield%2C+Middlesex%2C+England%2C+EN2+8DJ&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:43,065 - WARNING - No geocode results for address: 45 Chase Court Gardens, Enfield, Middlesex, England, EN2 8DJ.
+2024-12-12 10:52:43,069 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:43,498 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14385796 HTTP/11" 200 None
+2024-12-12 10:52:43,500 - INFO - Fetched SIC codes for company 14385796: ['56101']
+2024-12-12 10:52:43,501 - INFO - Processed company: LONDON NW4 LTD.
+2024-12-12 10:52:43,503 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:43,758 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:43,759 - WARNING - No geocode results for address: The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE.
+2024-12-12 10:52:43,763 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:44,181 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08906239 HTTP/11" 200 None
+2024-12-12 10:52:44,182 - INFO - Fetched SIC codes for company 08906239: ['82990']
+2024-12-12 10:52:44,183 - INFO - Processed company: NEWLANDS NW4 LIMITED.
+2024-12-12 10:52:44,186 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:44,437 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=10+Brooklands+Court+Kettering+Venture+Park%2C+Kettering%2C+Northamptonshire%2C+United+Kingdom%2C+NN15+6FD&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:44,438 - WARNING - No geocode results for address: 10 Brooklands Court Kettering Venture Park, Kettering, Northamptonshire, United Kingdom, NN15 6FD.
+2024-12-12 10:52:44,442 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:44,871 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13454122 HTTP/11" 200 None
+2024-12-12 10:52:44,873 - INFO - Fetched SIC codes for company 13454122: ['68100']
+2024-12-12 10:52:44,873 - INFO - Processed company: PRESTIGE PROPERTIES (NW4) LTD.
+2024-12-12 10:52:44,876 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:45,126 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=13+Finchley+Lane%2C+London%2C+England%2C+NW4+1BN&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:45,128 - WARNING - No geocode results for address: 13 Finchley Lane, London, England, NW4 1BN.
+2024-12-12 10:52:45,131 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:45,553 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15369534 HTTP/11" 200 None
+2024-12-12 10:52:45,555 - INFO - Fetched SIC codes for company 15369534: ['56101']
+2024-12-12 10:52:45,556 - INFO - Processed company: SAFFRON NW4 LTD.
+2024-12-12 10:52:45,559 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:45,810 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=Liberty+Wall+Solicitors+Office+2+4th+Floor+Boardman+House%2C+64+The+Broadway%2C+London%2C+United+Kingdom%2C+E15+1NT&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:45,811 - WARNING - No geocode results for address: Liberty Wall Solicitors Office 2 4th Floor Boardman House, 64 The Broadway, London, United Kingdom, E15 1NT.
+2024-12-12 10:52:45,815 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:46,231 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/16068299 HTTP/11" 200 None
+2024-12-12 10:52:46,232 - INFO - Fetched SIC codes for company 16068299: ['68100']
+2024-12-12 10:52:46,233 - INFO - Processed company: 7  ERGERTON NW4 LIMITED.
+2024-12-12 10:52:46,236 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:46,499 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=5+Sentinel+Square%2C+Hendon%2C+London%2C+NW4+2EL&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:46,501 - WARNING - No geocode results for address: 5 Sentinel Square, Hendon, London, NW4 2EL.
+2024-12-12 10:52:46,503 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:46,920 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08869198 HTTP/11" 200 None
+2024-12-12 10:52:46,921 - INFO - Fetched SIC codes for company 08869198: ['41100']
+2024-12-12 10:52:46,922 - INFO - Processed company: SOPERS YARD NW4 LIMITED.
+2024-12-12 10:52:46,925 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 10:52:47,180 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=88+Crawford+Street%2C+London%2C+United+Kingdom%2C+W1H+2EJ&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 10:52:47,182 - WARNING - No geocode results for address: 88 Crawford Street, London, United Kingdom, W1H 2EJ.
+2024-12-12 10:52:47,185 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 10:52:47,603 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/10337358 HTTP/11" 200 None
+2024-12-12 10:52:47,605 - INFO - Fetched SIC codes for company 10337358: ['98000']
+2024-12-12 10:52:47,606 - INFO - Processed company: JUBILEE LODGE NW4 FREEHOLD LIMITED.
+2024-12-12 10:52:47,618 - INFO - Data saved to nw4_geocoded_companies_with_sic.csv
+2024-12-12 12:05:43,209 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:05:43,948 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /search/companies?q=NW4 HTTP/11" 200 11687
+2024-12-12 12:05:43,950 - INFO - Successfully fetched companies for postcode NW4.
+2024-12-12 12:05:43,954 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:05:44,152 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=643++Watford+Way%2C+Apex+Corner%2C+London%2C+NW7+3JR&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:05:44,153 - ERROR - Error geocoding address '643  Watford Way, Apex Corner, London, NW7 3JR': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=643++Watford+Way%2C+Apex+Corner%2C+London%2C+NW7+3JR&format=json&limit=1
+2024-12-12 12:05:44,157 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:05:44,574 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/05670973 HTTP/11" 200 None
+2024-12-12 12:05:44,575 - INFO - Fetched SIC codes for company 05670973: ['7031']
+2024-12-12 12:05:44,576 - INFO - Processed company: NW4 LIMITED.
+2024-12-12 12:05:44,578 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:05:47,179 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=18+Beaconsfield+Road%2C+London%2C+England%2C+NW10+2JG&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:05:47,182 - ERROR - Error geocoding address '18 Beaconsfield Road, London, England, NW10 2JG': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=18+Beaconsfield+Road%2C+London%2C+England%2C+NW10+2JG&format=json&limit=1
+2024-12-12 12:05:47,186 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:05:47,608 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14389115 HTTP/11" 200 None
+2024-12-12 12:05:47,609 - INFO - Fetched SIC codes for company 14389115: ['81299']
+2024-12-12 12:05:47,610 - INFO - Processed company: NW4 CLEANING LTD.
+2024-12-12 12:05:47,613 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:05:50,254 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=35+Watford+Way%2C+London%2C+NW4+3JH&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:05:50,256 - ERROR - Error geocoding address '35 Watford Way, London, NW4 3JH': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=35+Watford+Way%2C+London%2C+NW4+3JH&format=json&limit=1
+2024-12-12 12:05:50,259 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:05:50,671 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/03204793 HTTP/11" 200 None
+2024-12-12 12:05:50,673 - INFO - Fetched SIC codes for company 03204793: ['45400']
+2024-12-12 12:05:50,673 - INFO - Processed company: NW4 MOTORCYCLES LTD.
+2024-12-12 12:05:50,676 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:05:53,166 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Handel+House%2C+95+High+Street%2C+Edgware%2C+England%2C+HA8+7DB&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:05:53,166 - ERROR - Error geocoding address 'Handel House, 95 High Street, Edgware, England, HA8 7DB': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=Handel+House%2C+95+High+Street%2C+Edgware%2C+England%2C+HA8+7DB&format=json&limit=1
+2024-12-12 12:05:53,168 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:05:53,584 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13732926 HTTP/11" 200 None
+2024-12-12 12:05:53,585 - INFO - Fetched SIC codes for company 13732926: ['68209']
+2024-12-12 12:05:53,587 - INFO - Processed company: NW4 PROPERTY LIMITED.
+2024-12-12 12:05:53,590 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:05:56,168 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=45+Chase+Court+Gardens%2C+Enfield%2C+England%2C+EN2+8DJ&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:05:56,169 - ERROR - Error geocoding address '45 Chase Court Gardens, Enfield, England, EN2 8DJ': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=45+Chase+Court+Gardens%2C+Enfield%2C+England%2C+EN2+8DJ&format=json&limit=1
+2024-12-12 12:05:56,172 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:05:56,595 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12766437 HTTP/11" 200 None
+2024-12-12 12:05:56,598 - INFO - Fetched SIC codes for company 12766437: ['56101']
+2024-12-12 12:05:56,599 - INFO - Processed company: NW4 3AS LTD.
+2024-12-12 12:05:56,601 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:05:59,232 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=662+High+Road%2C+London%2C+England%2C+N12+0NL&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:05:59,234 - ERROR - Error geocoding address '662 High Road, London, England, N12 0NL': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=662+High+Road%2C+London%2C+England%2C+N12+0NL&format=json&limit=1
+2024-12-12 12:05:59,239 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:05:59,657 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12507841 HTTP/11" 200 None
+2024-12-12 12:05:59,658 - INFO - Fetched SIC codes for company 12507841: ['41100', '43120']
+2024-12-12 12:05:59,659 - INFO - Processed company: NW4 DEVELOPMENTS LTD.
+2024-12-12 12:05:59,661 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:02,178 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=16++Glebe+Crescent%2C+London%2C+United+Kingdom%2C+NW4+1BU&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:02,178 - ERROR - Error geocoding address '16  Glebe Crescent, London, United Kingdom, NW4 1BU': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=16++Glebe+Crescent%2C+London%2C+United+Kingdom%2C+NW4+1BU&format=json&limit=1
+2024-12-12 12:06:02,183 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:02,628 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11444579 HTTP/11" 200 None
+2024-12-12 12:06:02,628 - INFO - Fetched SIC codes for company 11444579: ['45112']
+2024-12-12 12:06:02,629 - INFO - Processed company: NW4 CARS LTD.
+2024-12-12 12:06:02,631 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:05,183 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=19++Brent+Street%2C+Flat+2%2C+London%2C+United+Kingdom%2C+NW4+2EU&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:05,184 - ERROR - Error geocoding address '19  Brent Street, Flat 2, London, United Kingdom, NW4 2EU': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=19++Brent+Street%2C+Flat+2%2C+London%2C+United+Kingdom%2C+NW4+2EU&format=json&limit=1
+2024-12-12 12:06:05,188 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:05,620 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11179126 HTTP/11" 200 None
+2024-12-12 12:06:05,621 - INFO - Fetched SIC codes for company 11179126: ['81210']
+2024-12-12 12:06:05,622 - INFO - Processed company: NW4 CARPET CLEANING LIMITED.
+2024-12-12 12:06:05,625 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:08,272 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=1+Crown+Cottage+Farnham+Road%2C+Farnham+Royal%2C+Slough%2C+England%2C+SL2+3AS&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:08,272 - ERROR - Error geocoding address '1 Crown Cottage Farnham Road, Farnham Royal, Slough, England, SL2 3AS': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=1+Crown+Cottage+Farnham+Road%2C+Farnham+Royal%2C+Slough%2C+England%2C+SL2+3AS&format=json&limit=1
+2024-12-12 12:06:08,275 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:08,698 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14508819 HTTP/11" 200 None
+2024-12-12 12:06:08,699 - INFO - Fetched SIC codes for company 14508819: ['53202']
+2024-12-12 12:06:08,700 - INFO - Processed company: NW44 LIMITED.
+2024-12-12 12:06:08,702 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:11,194 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=115+Craven+Park+Road%2C+London%2C+England%2C+N15+6BL&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:11,194 - ERROR - Error geocoding address '115 Craven Park Road, London, England, N15 6BL': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=115+Craven+Park+Road%2C+London%2C+England%2C+N15+6BL&format=json&limit=1
+2024-12-12 12:06:11,198 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:11,615 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15636194 HTTP/11" 200 None
+2024-12-12 12:06:11,616 - INFO - Fetched SIC codes for company 15636194: ['68209']
+2024-12-12 12:06:11,617 - INFO - Processed company: NW49 LTD.
+2024-12-12 12:06:11,624 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:14,194 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=35+Ballards+Lane%2C+London%2C+United+Kingdom%2C+N3+1XW&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:14,195 - ERROR - Error geocoding address '35 Ballards Lane, London, United Kingdom, N3 1XW': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=35+Ballards+Lane%2C+London%2C+United+Kingdom%2C+N3+1XW&format=json&limit=1
+2024-12-12 12:06:14,198 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:14,615 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/07322808 HTTP/11" 200 None
+2024-12-12 12:06:14,616 - INFO - Fetched SIC codes for company 07322808: ['99999']
+2024-12-12 12:06:14,617 - INFO - Processed company: BURNHAM COURT NW4 RTM COMPANY LIMITED.
+2024-12-12 12:06:14,625 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:17,286 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Flat+1+Halkin+House%2C+1+Downage%2C+London%2C+England%2C+NW4+1AR&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:17,287 - ERROR - Error geocoding address 'Flat 1 Halkin House, 1 Downage, London, England, NW4 1AR': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=Flat+1+Halkin+House%2C+1+Downage%2C+London%2C+England%2C+NW4+1AR&format=json&limit=1
+2024-12-12 12:06:17,290 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:17,710 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09323416 HTTP/11" 200 None
+2024-12-12 12:06:17,711 - INFO - Fetched SIC codes for company 09323416: ['98000']
+2024-12-12 12:06:17,712 - INFO - Processed company: HALKIN HOUSE NW4 FREEHOLD LIMITED.
+2024-12-12 12:06:17,718 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:20,207 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:20,208 - ERROR - Error geocoding address 'The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&format=json&limit=1
+2024-12-12 12:06:20,212 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:20,625 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09799188 HTTP/11" 200 None
+2024-12-12 12:06:20,630 - INFO - Fetched SIC codes for company 09799188: ['68100']
+2024-12-12 12:06:20,632 - INFO - Processed company: LINEA NW4 LTD.
+2024-12-12 12:06:20,637 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:23,207 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=45+Chase+Court+Gardens%2C+Enfield%2C+Middlesex%2C+England%2C+EN2+8DJ&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:23,208 - ERROR - Error geocoding address '45 Chase Court Gardens, Enfield, Middlesex, England, EN2 8DJ': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=45+Chase+Court+Gardens%2C+Enfield%2C+Middlesex%2C+England%2C+EN2+8DJ&format=json&limit=1
+2024-12-12 12:06:23,210 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:23,632 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14385796 HTTP/11" 200 None
+2024-12-12 12:06:23,633 - INFO - Fetched SIC codes for company 14385796: ['56101']
+2024-12-12 12:06:23,634 - INFO - Processed company: LONDON NW4 LTD.
+2024-12-12 12:06:23,636 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:26,212 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:26,212 - ERROR - Error geocoding address 'The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&format=json&limit=1
+2024-12-12 12:06:26,214 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:26,623 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08906239 HTTP/11" 200 None
+2024-12-12 12:06:26,623 - INFO - Fetched SIC codes for company 08906239: ['82990']
+2024-12-12 12:06:26,624 - INFO - Processed company: NEWLANDS NW4 LIMITED.
+2024-12-12 12:06:26,629 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:29,217 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=10+Brooklands+Court+Kettering+Venture+Park%2C+Kettering%2C+Northamptonshire%2C+United+Kingdom%2C+NN15+6FD&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:29,218 - ERROR - Error geocoding address '10 Brooklands Court Kettering Venture Park, Kettering, Northamptonshire, United Kingdom, NN15 6FD': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=10+Brooklands+Court+Kettering+Venture+Park%2C+Kettering%2C+Northamptonshire%2C+United+Kingdom%2C+NN15+6FD&format=json&limit=1
+2024-12-12 12:06:29,221 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:29,648 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13454122 HTTP/11" 200 None
+2024-12-12 12:06:29,649 - INFO - Fetched SIC codes for company 13454122: ['68100']
+2024-12-12 12:06:29,649 - INFO - Processed company: PRESTIGE PROPERTIES (NW4) LTD.
+2024-12-12 12:06:29,653 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:32,225 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=13+Finchley+Lane%2C+London%2C+England%2C+NW4+1BN&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:32,226 - ERROR - Error geocoding address '13 Finchley Lane, London, England, NW4 1BN': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=13+Finchley+Lane%2C+London%2C+England%2C+NW4+1BN&format=json&limit=1
+2024-12-12 12:06:32,230 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:32,665 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15369534 HTTP/11" 200 None
+2024-12-12 12:06:32,667 - INFO - Fetched SIC codes for company 15369534: ['56101']
+2024-12-12 12:06:32,667 - INFO - Processed company: SAFFRON NW4 LTD.
+2024-12-12 12:06:32,671 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:35,228 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Liberty+Wall+Solicitors+Office+2+4th+Floor+Boardman+House%2C+64+The+Broadway%2C+London%2C+United+Kingdom%2C+E15+1NT&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:35,229 - ERROR - Error geocoding address 'Liberty Wall Solicitors Office 2 4th Floor Boardman House, 64 The Broadway, London, United Kingdom, E15 1NT': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=Liberty+Wall+Solicitors+Office+2+4th+Floor+Boardman+House%2C+64+The+Broadway%2C+London%2C+United+Kingdom%2C+E15+1NT&format=json&limit=1
+2024-12-12 12:06:35,233 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:35,655 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/16068299 HTTP/11" 200 None
+2024-12-12 12:06:35,656 - INFO - Fetched SIC codes for company 16068299: ['68100']
+2024-12-12 12:06:35,657 - INFO - Processed company: 7  ERGERTON NW4 LIMITED.
+2024-12-12 12:06:35,658 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:38,233 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=5+Sentinel+Square%2C+Hendon%2C+London%2C+NW4+2EL&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:38,234 - ERROR - Error geocoding address '5 Sentinel Square, Hendon, London, NW4 2EL': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=5+Sentinel+Square%2C+Hendon%2C+London%2C+NW4+2EL&format=json&limit=1
+2024-12-12 12:06:38,238 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:38,647 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08869198 HTTP/11" 200 None
+2024-12-12 12:06:38,648 - INFO - Fetched SIC codes for company 08869198: ['41100']
+2024-12-12 12:06:38,649 - INFO - Processed company: SOPERS YARD NW4 LIMITED.
+2024-12-12 12:06:38,652 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:06:41,245 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=88+Crawford+Street%2C+London%2C+United+Kingdom%2C+W1H+2EJ&format=json&limit=1 HTTP/11" 403 941
+2024-12-12 12:06:41,246 - ERROR - Error geocoding address '88 Crawford Street, London, United Kingdom, W1H 2EJ': 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?q=88+Crawford+Street%2C+London%2C+United+Kingdom%2C+W1H+2EJ&format=json&limit=1
+2024-12-12 12:06:41,249 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:06:41,659 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/10337358 HTTP/11" 200 None
+2024-12-12 12:06:41,660 - INFO - Fetched SIC codes for company 10337358: ['98000']
+2024-12-12 12:06:41,661 - INFO - Processed company: JUBILEE LODGE NW4 FREEHOLD LIMITED.
+2024-12-12 12:06:41,678 - INFO - Data saved to nw4_geocoded_companies_with_sic.csv
+2024-12-12 12:09:25,292 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:25,946 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /search/companies?q=NW4 HTTP/11" 200 11687
+2024-12-12 12:09:25,948 - INFO - Successfully fetched companies for postcode NW4.
+2024-12-12 12:09:26,957 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:27,739 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=643++Watford+Way%2C+Apex+Corner%2C+London%2C+NW7+3JR&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:27,740 - WARNING - No geocode results for address: 643  Watford Way, Apex Corner, London, NW7 3JR.
+2024-12-12 12:09:27,744 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:28,167 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/05670973 HTTP/11" 200 None
+2024-12-12 12:09:28,168 - INFO - Fetched SIC codes for company 05670973: ['7031']
+2024-12-12 12:09:28,168 - INFO - Processed company: NW4 LIMITED.
+2024-12-12 12:09:29,174 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:29,797 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=18+Beaconsfield+Road%2C+London%2C+England%2C+NW10+2JG&format=json&limit=1 HTTP/11" 200 494
+2024-12-12 12:09:29,798 - INFO - Geocoded address '18 Beaconsfield Road, London, England, NW10 2JG' to (51.50494645, -0.30823075).
+2024-12-12 12:09:29,813 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:30,227 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14389115 HTTP/11" 200 None
+2024-12-12 12:09:30,228 - INFO - Fetched SIC codes for company 14389115: ['81299']
+2024-12-12 12:09:30,228 - INFO - Processed company: NW4 CLEANING LTD.
+2024-12-12 12:09:31,235 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:31,719 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=35+Watford+Way%2C+London%2C+NW4+3JH&format=json&limit=1 HTTP/11" 200 518
+2024-12-12 12:09:31,719 - INFO - Geocoded address '35 Watford Way, London, NW4 3JH' to (51.58432429207281, -0.2286310192760803).
+2024-12-12 12:09:31,725 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:32,143 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/03204793 HTTP/11" 200 None
+2024-12-12 12:09:32,147 - INFO - Fetched SIC codes for company 03204793: ['45400']
+2024-12-12 12:09:32,147 - INFO - Processed company: NW4 MOTORCYCLES LTD.
+2024-12-12 12:09:33,157 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:33,995 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Handel+House%2C+95+High+Street%2C+Edgware%2C+England%2C+HA8+7DB&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:33,997 - WARNING - No geocode results for address: Handel House, 95 High Street, Edgware, England, HA8 7DB.
+2024-12-12 12:09:34,001 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:34,415 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13732926 HTTP/11" 200 None
+2024-12-12 12:09:34,416 - INFO - Fetched SIC codes for company 13732926: ['68209']
+2024-12-12 12:09:34,420 - INFO - Processed company: NW4 PROPERTY LIMITED.
+2024-12-12 12:09:35,425 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:35,938 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=45+Chase+Court+Gardens%2C+Enfield%2C+England%2C+EN2+8DJ&format=json&limit=1 HTTP/11" 200 519
+2024-12-12 12:09:35,939 - INFO - Geocoded address '45 Chase Court Gardens, Enfield, England, EN2 8DJ' to (51.656165900000005, -0.09263439999999837).
+2024-12-12 12:09:35,939 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:36,351 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12766437 HTTP/11" 200 None
+2024-12-12 12:09:36,352 - INFO - Fetched SIC codes for company 12766437: ['56101']
+2024-12-12 12:09:36,352 - INFO - Processed company: NW4 3AS LTD.
+2024-12-12 12:09:37,361 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:38,355 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=662+High+Road%2C+London%2C+England%2C+N12+0NL&format=json&limit=1 HTTP/11" 200 518
+2024-12-12 12:09:38,356 - INFO - Geocoded address '662 High Road, London, England, N12 0NL' to (51.61199281948339, -0.17567317492065418).
+2024-12-12 12:09:38,364 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:38,781 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12507841 HTTP/11" 200 None
+2024-12-12 12:09:38,782 - INFO - Fetched SIC codes for company 12507841: ['41100', '43120']
+2024-12-12 12:09:38,783 - INFO - Processed company: NW4 DEVELOPMENTS LTD.
+2024-12-12 12:09:39,792 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:40,766 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=16++Glebe+Crescent%2C+London%2C+United+Kingdom%2C+NW4+1BU&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:40,767 - WARNING - No geocode results for address: 16  Glebe Crescent, London, United Kingdom, NW4 1BU.
+2024-12-12 12:09:40,769 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:41,213 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11444579 HTTP/11" 200 None
+2024-12-12 12:09:41,213 - INFO - Fetched SIC codes for company 11444579: ['45112']
+2024-12-12 12:09:41,214 - INFO - Processed company: NW4 CARS LTD.
+2024-12-12 12:09:42,219 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:43,519 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=19++Brent+Street%2C+Flat+2%2C+London%2C+United+Kingdom%2C+NW4+2EU&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:43,520 - WARNING - No geocode results for address: 19  Brent Street, Flat 2, London, United Kingdom, NW4 2EU.
+2024-12-12 12:09:43,524 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:43,947 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11179126 HTTP/11" 200 None
+2024-12-12 12:09:43,949 - INFO - Fetched SIC codes for company 11179126: ['81210']
+2024-12-12 12:09:43,950 - INFO - Processed company: NW4 CARPET CLEANING LIMITED.
+2024-12-12 12:09:44,968 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:46,219 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=1+Crown+Cottage+Farnham+Road%2C+Farnham+Royal%2C+Slough%2C+England%2C+SL2+3AS&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:46,220 - WARNING - No geocode results for address: 1 Crown Cottage Farnham Road, Farnham Royal, Slough, England, SL2 3AS.
+2024-12-12 12:09:46,222 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:46,643 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14508819 HTTP/11" 200 None
+2024-12-12 12:09:46,645 - INFO - Fetched SIC codes for company 14508819: ['53202']
+2024-12-12 12:09:46,645 - INFO - Processed company: NW44 LIMITED.
+2024-12-12 12:09:47,660 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:48,561 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=115+Craven+Park+Road%2C+London%2C+England%2C+N15+6BL&format=json&limit=1 HTTP/11" 200 541
+2024-12-12 12:09:48,563 - INFO - Geocoded address '115 Craven Park Road, London, England, N15 6BL' to (51.577141190746616, -0.06449000037456448).
+2024-12-12 12:09:48,565 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:48,988 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15636194 HTTP/11" 200 None
+2024-12-12 12:09:48,989 - INFO - Fetched SIC codes for company 15636194: ['68209']
+2024-12-12 12:09:48,989 - INFO - Processed company: NW49 LTD.
+2024-12-12 12:09:49,997 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:50,423 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=35+Ballards+Lane%2C+London%2C+United+Kingdom%2C+N3+1XW&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:50,423 - WARNING - No geocode results for address: 35 Ballards Lane, London, United Kingdom, N3 1XW.
+2024-12-12 12:09:50,426 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:50,860 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/07322808 HTTP/11" 200 None
+2024-12-12 12:09:50,861 - INFO - Fetched SIC codes for company 07322808: ['99999']
+2024-12-12 12:09:50,862 - INFO - Processed company: BURNHAM COURT NW4 RTM COMPANY LIMITED.
+2024-12-12 12:09:51,871 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:52,638 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Flat+1+Halkin+House%2C+1+Downage%2C+London%2C+England%2C+NW4+1AR&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:52,639 - WARNING - No geocode results for address: Flat 1 Halkin House, 1 Downage, London, England, NW4 1AR.
+2024-12-12 12:09:52,642 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:53,060 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09323416 HTTP/11" 200 None
+2024-12-12 12:09:53,061 - INFO - Fetched SIC codes for company 09323416: ['98000']
+2024-12-12 12:09:53,061 - INFO - Processed company: HALKIN HOUSE NW4 FREEHOLD LIMITED.
+2024-12-12 12:09:54,071 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:54,886 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:54,887 - WARNING - No geocode results for address: The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE.
+2024-12-12 12:09:54,893 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:55,314 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09799188 HTTP/11" 200 None
+2024-12-12 12:09:55,315 - INFO - Fetched SIC codes for company 09799188: ['68100']
+2024-12-12 12:09:55,315 - INFO - Processed company: LINEA NW4 LTD.
+2024-12-12 12:09:56,322 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:57,458 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=45+Chase+Court+Gardens%2C+Enfield%2C+Middlesex%2C+England%2C+EN2+8DJ&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:57,459 - WARNING - No geocode results for address: 45 Chase Court Gardens, Enfield, Middlesex, England, EN2 8DJ.
+2024-12-12 12:09:57,462 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:09:57,898 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14385796 HTTP/11" 200 None
+2024-12-12 12:09:57,904 - INFO - Fetched SIC codes for company 14385796: ['56101']
+2024-12-12 12:09:57,905 - INFO - Processed company: LONDON NW4 LTD.
+2024-12-12 12:09:58,914 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:09:59,698 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=The+Courtyard%2C+14a+Sydenham+Road%2C+Croydon%2C+England%2C+CR0+2EE&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:09:59,704 - WARNING - No geocode results for address: The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE.
+2024-12-12 12:09:59,708 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:10:00,135 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08906239 HTTP/11" 200 None
+2024-12-12 12:10:00,137 - INFO - Fetched SIC codes for company 08906239: ['82990']
+2024-12-12 12:10:00,137 - INFO - Processed company: NEWLANDS NW4 LIMITED.
+2024-12-12 12:10:01,144 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:10:02,159 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=10+Brooklands+Court+Kettering+Venture+Park%2C+Kettering%2C+Northamptonshire%2C+United+Kingdom%2C+NN15+6FD&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:10:02,160 - WARNING - No geocode results for address: 10 Brooklands Court Kettering Venture Park, Kettering, Northamptonshire, United Kingdom, NN15 6FD.
+2024-12-12 12:10:02,169 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:10:02,603 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13454122 HTTP/11" 200 None
+2024-12-12 12:10:02,606 - INFO - Fetched SIC codes for company 13454122: ['68100']
+2024-12-12 12:10:02,609 - INFO - Processed company: PRESTIGE PROPERTIES (NW4) LTD.
+2024-12-12 12:10:03,618 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:10:04,241 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=13+Finchley+Lane%2C+London%2C+England%2C+NW4+1BN&format=json&limit=1 HTTP/11" 200 517
+2024-12-12 12:10:04,242 - INFO - Geocoded address '13 Finchley Lane, London, England, NW4 1BN' to (51.6121854, -0.15726343011527333).
+2024-12-12 12:10:04,244 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:10:04,665 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15369534 HTTP/11" 200 None
+2024-12-12 12:10:04,670 - INFO - Fetched SIC codes for company 15369534: ['56101']
+2024-12-12 12:10:04,671 - INFO - Processed company: SAFFRON NW4 LTD.
+2024-12-12 12:10:05,685 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:10:06,784 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Liberty+Wall+Solicitors+Office+2+4th+Floor+Boardman+House%2C+64+The+Broadway%2C+London%2C+United+Kingdom%2C+E15+1NT&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:10:06,787 - WARNING - No geocode results for address: Liberty Wall Solicitors Office 2 4th Floor Boardman House, 64 The Broadway, London, United Kingdom, E15 1NT.
+2024-12-12 12:10:06,793 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:10:07,221 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/16068299 HTTP/11" 200 None
+2024-12-12 12:10:07,222 - INFO - Fetched SIC codes for company 16068299: ['68100']
+2024-12-12 12:10:07,223 - INFO - Processed company: 7  ERGERTON NW4 LIMITED.
+2024-12-12 12:10:08,231 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:10:08,827 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=5+Sentinel+Square%2C+Hendon%2C+London%2C+NW4+2EL&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:10:08,829 - WARNING - No geocode results for address: 5 Sentinel Square, Hendon, London, NW4 2EL.
+2024-12-12 12:10:08,835 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:10:09,253 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08869198 HTTP/11" 200 None
+2024-12-12 12:10:09,255 - INFO - Fetched SIC codes for company 08869198: ['41100']
+2024-12-12 12:10:09,256 - INFO - Processed company: SOPERS YARD NW4 LIMITED.
+2024-12-12 12:10:10,264 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-12-12 12:10:11,474 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=88+Crawford+Street%2C+London%2C+United+Kingdom%2C+W1H+2EJ&format=json&limit=1 HTTP/11" 200 2
+2024-12-12 12:10:11,474 - WARNING - No geocode results for address: 88 Crawford Street, London, United Kingdom, W1H 2EJ.
+2024-12-12 12:10:11,477 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:10:11,904 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/10337358 HTTP/11" 200 None
+2024-12-12 12:10:11,905 - INFO - Fetched SIC codes for company 10337358: ['98000']
+2024-12-12 12:10:11,905 - INFO - Processed company: JUBILEE LODGE NW4 FREEHOLD LIMITED.
+2024-12-12 12:10:11,929 - INFO - Data saved to nw4_geocoded_companies_with_sic.csv
+2024-12-12 12:12:43,320 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:43,961 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /search/companies?q=NW4 HTTP/11" 200 11687
+2024-12-12 12:12:43,964 - INFO - Successfully fetched companies for postcode NW4.
+2024-12-12 12:12:44,970 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=643+Watford+Way,+Apex+Corner,+London,+NW7+3JR&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:44,972 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:45,499 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=643%2BWatford%2BWay%2C%2BApex%2BCorner%2C%2BLondon%2C%2BNW7%2B3JR&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:45,500 - WARNING - No geocode results for address: 643  Watford Way, Apex Corner, London, NW7 3JR.
+2024-12-12 12:12:45,502 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:45,932 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/05670973 HTTP/11" 200 None
+2024-12-12 12:12:45,934 - INFO - Fetched SIC codes for company 05670973: ['7031']
+2024-12-12 12:12:45,935 - INFO - Processed company: NW4 LIMITED.
+2024-12-12 12:12:46,940 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=18+Beaconsfield+Road,+London,+England,+NW10+2JG&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:46,944 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:47,196 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=18%2BBeaconsfield%2BRoad%2C%2BLondon%2C%2BEngland%2C%2BNW10%2B2JG&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:47,199 - WARNING - No geocode results for address: 18 Beaconsfield Road, London, England, NW10 2JG.
+2024-12-12 12:12:47,204 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:47,624 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14389115 HTTP/11" 200 None
+2024-12-12 12:12:47,625 - INFO - Fetched SIC codes for company 14389115: ['81299']
+2024-12-12 12:12:47,625 - INFO - Processed company: NW4 CLEANING LTD.
+2024-12-12 12:12:48,629 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=35+Watford+Way,+London,+NW4+3JH&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:48,633 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:48,889 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=35%2BWatford%2BWay%2C%2BLondon%2C%2BNW4%2B3JH&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:48,890 - WARNING - No geocode results for address: 35 Watford Way, London, NW4 3JH.
+2024-12-12 12:12:48,897 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:49,316 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/03204793 HTTP/11" 200 None
+2024-12-12 12:12:49,317 - INFO - Fetched SIC codes for company 03204793: ['45400']
+2024-12-12 12:12:49,319 - INFO - Processed company: NW4 MOTORCYCLES LTD.
+2024-12-12 12:12:50,322 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=Handel+House,+95+High+Street,+Edgware,+England,+HA8+7DB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:50,325 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:50,574 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=Handel%2BHouse%2C%2B95%2BHigh%2BStreet%2C%2BEdgware%2C%2BEngland%2C%2BHA8%2B7DB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:50,575 - WARNING - No geocode results for address: Handel House, 95 High Street, Edgware, England, HA8 7DB.
+2024-12-12 12:12:50,580 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:50,999 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13732926 HTTP/11" 200 None
+2024-12-12 12:12:51,000 - INFO - Fetched SIC codes for company 13732926: ['68209']
+2024-12-12 12:12:51,000 - INFO - Processed company: NW4 PROPERTY LIMITED.
+2024-12-12 12:12:52,003 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=45+Chase+Court+Gardens,+Enfield,+England,+EN2+8DJ&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:52,006 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:52,258 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=45%2BChase%2BCourt%2BGardens%2C%2BEnfield%2C%2BEngland%2C%2BEN2%2B8DJ&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:52,259 - WARNING - No geocode results for address: 45 Chase Court Gardens, Enfield, England, EN2 8DJ.
+2024-12-12 12:12:52,262 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:52,676 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12766437 HTTP/11" 200 None
+2024-12-12 12:12:52,678 - INFO - Fetched SIC codes for company 12766437: ['56101']
+2024-12-12 12:12:52,679 - INFO - Processed company: NW4 3AS LTD.
+2024-12-12 12:12:53,680 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=662+High+Road,+London,+England,+N12+0NL&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:53,687 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:53,940 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=662%2BHigh%2BRoad%2C%2BLondon%2C%2BEngland%2C%2BN12%2B0NL&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:53,941 - WARNING - No geocode results for address: 662 High Road, London, England, N12 0NL.
+2024-12-12 12:12:53,944 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:54,361 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12507841 HTTP/11" 200 None
+2024-12-12 12:12:54,362 - INFO - Fetched SIC codes for company 12507841: ['41100', '43120']
+2024-12-12 12:12:54,364 - INFO - Processed company: NW4 DEVELOPMENTS LTD.
+2024-12-12 12:12:55,368 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=16+Glebe+Crescent,+London,+United+Kingdom,+NW4+1BU&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:55,370 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:55,620 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=16%2BGlebe%2BCrescent%2C%2BLondon%2C%2BUnited%2BKingdom%2C%2BNW4%2B1BU&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:55,621 - WARNING - No geocode results for address: 16  Glebe Crescent, London, United Kingdom, NW4 1BU.
+2024-12-12 12:12:55,623 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:56,035 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11444579 HTTP/11" 200 None
+2024-12-12 12:12:56,036 - INFO - Fetched SIC codes for company 11444579: ['45112']
+2024-12-12 12:12:56,037 - INFO - Processed company: NW4 CARS LTD.
+2024-12-12 12:12:57,042 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=19+Brent+Street,+Flat+2,+London,+United+Kingdom,+NW4+2EU&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:57,048 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:57,295 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=19%2BBrent%2BStreet%2C%2BFlat%2B2%2C%2BLondon%2C%2BUnited%2BKingdom%2C%2BNW4%2B2EU&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:57,296 - WARNING - No geocode results for address: 19  Brent Street, Flat 2, London, United Kingdom, NW4 2EU.
+2024-12-12 12:12:57,303 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:57,731 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11179126 HTTP/11" 200 None
+2024-12-12 12:12:57,733 - INFO - Fetched SIC codes for company 11179126: ['81210']
+2024-12-12 12:12:57,733 - INFO - Processed company: NW4 CARPET CLEANING LIMITED.
+2024-12-12 12:12:58,738 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=1+Crown+Cottage+Farnham+Road,+Farnham+Royal,+Slough,+England,+SL2+3AS&maxRows=1&username=matthewjmiller07
+2024-12-12 12:12:58,741 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:12:58,987 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=1%2BCrown%2BCottage%2BFarnham%2BRoad%2C%2BFarnham%2BRoyal%2C%2BSlough%2C%2BEngland%2C%2BSL2%2B3AS&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:12:58,988 - WARNING - No geocode results for address: 1 Crown Cottage Farnham Road, Farnham Royal, Slough, England, SL2 3AS.
+2024-12-12 12:12:58,996 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:12:59,468 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14508819 HTTP/11" 200 None
+2024-12-12 12:12:59,469 - INFO - Fetched SIC codes for company 14508819: ['53202']
+2024-12-12 12:12:59,470 - INFO - Processed company: NW44 LIMITED.
+2024-12-12 12:13:00,473 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=115+Craven+Park+Road,+London,+England,+N15+6BL&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:00,478 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:00,731 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=115%2BCraven%2BPark%2BRoad%2C%2BLondon%2C%2BEngland%2C%2BN15%2B6BL&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:00,733 - WARNING - No geocode results for address: 115 Craven Park Road, London, England, N15 6BL.
+2024-12-12 12:13:00,736 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:01,158 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15636194 HTTP/11" 200 None
+2024-12-12 12:13:01,160 - INFO - Fetched SIC codes for company 15636194: ['68209']
+2024-12-12 12:13:01,167 - INFO - Processed company: NW49 LTD.
+2024-12-12 12:13:02,183 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=35+Ballards+Lane,+London,+United+Kingdom,+N3+1XW&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:02,187 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:02,428 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=35%2BBallards%2BLane%2C%2BLondon%2C%2BUnited%2BKingdom%2C%2BN3%2B1XW&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:02,429 - WARNING - No geocode results for address: 35 Ballards Lane, London, United Kingdom, N3 1XW.
+2024-12-12 12:13:02,436 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:02,877 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/07322808 HTTP/11" 200 None
+2024-12-12 12:13:02,878 - INFO - Fetched SIC codes for company 07322808: ['99999']
+2024-12-12 12:13:02,880 - INFO - Processed company: BURNHAM COURT NW4 RTM COMPANY LIMITED.
+2024-12-12 12:13:03,884 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=Flat+1+Halkin+House,+1+Downage,+London,+England,+NW4+1AR&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:03,890 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:04,149 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=Flat%2B1%2BHalkin%2BHouse%2C%2B1%2BDownage%2C%2BLondon%2C%2BEngland%2C%2BNW4%2B1AR&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:04,150 - WARNING - No geocode results for address: Flat 1 Halkin House, 1 Downage, London, England, NW4 1AR.
+2024-12-12 12:13:04,158 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:04,583 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09323416 HTTP/11" 200 None
+2024-12-12 12:13:04,585 - INFO - Fetched SIC codes for company 09323416: ['98000']
+2024-12-12 12:13:04,588 - INFO - Processed company: HALKIN HOUSE NW4 FREEHOLD LIMITED.
+2024-12-12 12:13:05,593 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=The+Courtyard,+14a+Sydenham+Road,+Croydon,+England,+CR0+2EE&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:05,600 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:05,847 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=The%2BCourtyard%2C%2B14a%2BSydenham%2BRoad%2C%2BCroydon%2C%2BEngland%2C%2BCR0%2B2EE&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:05,848 - WARNING - No geocode results for address: The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE.
+2024-12-12 12:13:05,854 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:06,279 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09799188 HTTP/11" 200 None
+2024-12-12 12:13:06,280 - INFO - Fetched SIC codes for company 09799188: ['68100']
+2024-12-12 12:13:06,281 - INFO - Processed company: LINEA NW4 LTD.
+2024-12-12 12:13:07,283 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=45+Chase+Court+Gardens,+Enfield,+Middlesex,+England,+EN2+8DJ&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:07,287 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:07,530 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=45%2BChase%2BCourt%2BGardens%2C%2BEnfield%2C%2BMiddlesex%2C%2BEngland%2C%2BEN2%2B8DJ&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:07,533 - WARNING - No geocode results for address: 45 Chase Court Gardens, Enfield, Middlesex, England, EN2 8DJ.
+2024-12-12 12:13:07,537 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:07,964 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14385796 HTTP/11" 200 None
+2024-12-12 12:13:07,965 - INFO - Fetched SIC codes for company 14385796: ['56101']
+2024-12-12 12:13:07,966 - INFO - Processed company: LONDON NW4 LTD.
+2024-12-12 12:13:08,971 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=The+Courtyard,+14a+Sydenham+Road,+Croydon,+England,+CR0+2EE&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:08,978 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:09,228 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=The%2BCourtyard%2C%2B14a%2BSydenham%2BRoad%2C%2BCroydon%2C%2BEngland%2C%2BCR0%2B2EE&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:09,230 - WARNING - No geocode results for address: The Courtyard, 14a Sydenham Road, Croydon, England, CR0 2EE.
+2024-12-12 12:13:09,237 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:09,663 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08906239 HTTP/11" 200 None
+2024-12-12 12:13:09,669 - INFO - Fetched SIC codes for company 08906239: ['82990']
+2024-12-12 12:13:09,670 - INFO - Processed company: NEWLANDS NW4 LIMITED.
+2024-12-12 12:13:10,674 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=10+Brooklands+Court+Kettering+Venture+Park,+Kettering,+Northamptonshire,+United+Kingdom,+NN15+6FD&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:10,681 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:10,928 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=10%2BBrooklands%2BCourt%2BKettering%2BVenture%2BPark%2C%2BKettering%2C%2BNorthamptonshire%2C%2BUnited%2BKingdom%2C%2BNN15%2B6FD&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:10,929 - WARNING - No geocode results for address: 10 Brooklands Court Kettering Venture Park, Kettering, Northamptonshire, United Kingdom, NN15 6FD.
+2024-12-12 12:13:10,933 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:11,369 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13454122 HTTP/11" 200 None
+2024-12-12 12:13:11,369 - INFO - Fetched SIC codes for company 13454122: ['68100']
+2024-12-12 12:13:11,370 - INFO - Processed company: PRESTIGE PROPERTIES (NW4) LTD.
+2024-12-12 12:13:12,374 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=13+Finchley+Lane,+London,+England,+NW4+1BN&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:12,378 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:12,626 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=13%2BFinchley%2BLane%2C%2BLondon%2C%2BEngland%2C%2BNW4%2B1BN&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:12,627 - WARNING - No geocode results for address: 13 Finchley Lane, London, England, NW4 1BN.
+2024-12-12 12:13:12,633 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:13,047 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15369534 HTTP/11" 200 None
+2024-12-12 12:13:13,053 - INFO - Fetched SIC codes for company 15369534: ['56101']
+2024-12-12 12:13:13,054 - INFO - Processed company: SAFFRON NW4 LTD.
+2024-12-12 12:13:14,059 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=Liberty+Wall+Solicitors+Office+2+4th+Floor+Boardman+House,+64+The+Broadway,+London,+United+Kingdom,+E15+1NT&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:14,069 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:14,318 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=Liberty%2BWall%2BSolicitors%2BOffice%2B2%2B4th%2BFloor%2BBoardman%2BHouse%2C%2B64%2BThe%2BBroadway%2C%2BLondon%2C%2BUnited%2BKingdom%2C%2BE15%2B1NT&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:14,318 - WARNING - No geocode results for address: Liberty Wall Solicitors Office 2 4th Floor Boardman House, 64 The Broadway, London, United Kingdom, E15 1NT.
+2024-12-12 12:13:14,320 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:14,734 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/16068299 HTTP/11" 200 None
+2024-12-12 12:13:14,735 - INFO - Fetched SIC codes for company 16068299: ['68100']
+2024-12-12 12:13:14,736 - INFO - Processed company: 7  ERGERTON NW4 LIMITED.
+2024-12-12 12:13:15,741 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=5+Sentinel+Square,+Hendon,+London,+NW4+2EL&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:15,743 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:15,984 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=5%2BSentinel%2BSquare%2C%2BHendon%2C%2BLondon%2C%2BNW4%2B2EL&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:15,985 - WARNING - No geocode results for address: 5 Sentinel Square, Hendon, London, NW4 2EL.
+2024-12-12 12:13:15,991 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:16,412 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08869198 HTTP/11" 200 None
+2024-12-12 12:13:16,414 - INFO - Fetched SIC codes for company 08869198: ['41100']
+2024-12-12 12:13:16,415 - INFO - Processed company: SOPERS YARD NW4 LIMITED.
+2024-12-12 12:13:17,420 - DEBUG - GeoNames query: http://api.geonames.org/searchJSON?q=88+Crawford+Street,+London,+United+Kingdom,+W1H+2EJ&maxRows=1&username=matthewjmiller07
+2024-12-12 12:13:17,426 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:13:17,678 - DEBUG - http://api.geonames.org:80 "GET /searchJSON?q=88%2BCrawford%2BStreet%2C%2BLondon%2C%2BUnited%2BKingdom%2C%2BW1H%2B2EJ&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:13:17,680 - WARNING - No geocode results for address: 88 Crawford Street, London, United Kingdom, W1H 2EJ.
+2024-12-12 12:13:17,686 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:13:18,104 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/10337358 HTTP/11" 200 None
+2024-12-12 12:13:18,108 - INFO - Fetched SIC codes for company 10337358: ['98000']
+2024-12-12 12:13:18,110 - INFO - Processed company: JUBILEE LODGE NW4 FREEHOLD LIMITED.
+2024-12-12 12:13:18,135 - INFO - Data saved to nw4_geocoded_companies_with_sic.csv
+2024-12-12 12:28:29,889 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:28:35,791 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /search/companies?q=NW4 HTTP/11" 200 11687
+2024-12-12 12:28:35,792 - INFO - Successfully fetched companies for postcode NW4.
+2024-12-12 12:28:36,800 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:37,805 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:38,808 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:39,813 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:40,820 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:41,825 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:42,826 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:43,832 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:44,835 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:45,836 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:46,840 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:47,843 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:48,848 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:49,853 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:50,860 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:51,866 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:52,870 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:53,874 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:54,880 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:55,885 - ERROR - Error processing company: name 'geocode_postal_code' is not defined
+2024-12-12 12:28:55,919 - WARNING - No data found for the specified postcode.
+2024-12-12 12:31:41,081 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:41,647 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /search/companies?q=NW4 HTTP/11" 200 11687
+2024-12-12 12:31:41,649 - INFO - Successfully fetched companies for postcode NW4.
+2024-12-12 12:31:42,651 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW7 3JR&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:42,655 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:43,210 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW7+3JR&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:43,212 - INFO - Geocoded postal code 'NW7 3JR' to (51.62100462582355, -0.25469906159243977).
+2024-12-12 12:31:43,215 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:43,628 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/05670973 HTTP/11" 200 None
+2024-12-12 12:31:43,628 - INFO - Fetched SIC codes for company 05670973: ['7031']
+2024-12-12 12:31:43,629 - INFO - Processed company: NW4 LIMITED.
+2024-12-12 12:31:44,631 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW10 2JG&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:44,634 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:44,911 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW10+2JG&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:44,912 - INFO - Geocoded postal code 'NW10 2JG' to (51.548323471912354, -0.24228003278971139).
+2024-12-12 12:31:44,915 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:45,329 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14389115 HTTP/11" 200 None
+2024-12-12 12:31:45,330 - INFO - Fetched SIC codes for company 14389115: ['81299']
+2024-12-12 12:31:45,330 - INFO - Processed company: NW4 CLEANING LTD.
+2024-12-12 12:31:46,335 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW4 3JH&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:46,337 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:46,684 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW4+3JH&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:46,684 - INFO - Geocoded postal code 'NW4 3JH' to (51.58380893762523, -0.22864195191961062).
+2024-12-12 12:31:46,689 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:47,107 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/03204793 HTTP/11" 200 None
+2024-12-12 12:31:47,108 - INFO - Fetched SIC codes for company 03204793: ['45400']
+2024-12-12 12:31:47,108 - INFO - Processed company: NW4 MOTORCYCLES LTD.
+2024-12-12 12:31:48,109 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=HA8 7DB&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:48,116 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:48,444 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=HA8+7DB&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:48,445 - INFO - Geocoded postal code 'HA8 7DB' to (51.61129554229018, -0.280462018293364).
+2024-12-12 12:31:48,447 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:48,872 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13732926 HTTP/11" 200 None
+2024-12-12 12:31:48,873 - INFO - Fetched SIC codes for company 13732926: ['68209']
+2024-12-12 12:31:48,874 - INFO - Processed company: NW4 PROPERTY LIMITED.
+2024-12-12 12:31:49,874 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=EN2 8DJ&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:49,878 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:50,189 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=EN2+8DJ&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:50,190 - INFO - Geocoded postal code 'EN2 8DJ' to (51.65627720751693, -0.09256433338357627).
+2024-12-12 12:31:50,192 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:50,604 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12766437 HTTP/11" 200 None
+2024-12-12 12:31:50,605 - INFO - Fetched SIC codes for company 12766437: ['56101']
+2024-12-12 12:31:50,605 - INFO - Processed company: NW4 3AS LTD.
+2024-12-12 12:31:51,609 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=N12 0NL&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:51,613 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:51,925 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=N12+0NL&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:51,926 - INFO - Geocoded postal code 'N12 0NL' to (51.61184875441777, -0.17533863238598146).
+2024-12-12 12:31:51,928 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:52,340 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/12507841 HTTP/11" 200 None
+2024-12-12 12:31:52,341 - INFO - Fetched SIC codes for company 12507841: ['41100', '43120']
+2024-12-12 12:31:52,343 - INFO - Processed company: NW4 DEVELOPMENTS LTD.
+2024-12-12 12:31:53,348 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW4 1BU&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:53,353 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:53,640 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW4+1BU&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:53,641 - INFO - Geocoded postal code 'NW4 1BU' to (51.59057185832714, -0.22036671939590458).
+2024-12-12 12:31:53,643 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:54,051 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11444579 HTTP/11" 200 None
+2024-12-12 12:31:54,051 - INFO - Fetched SIC codes for company 11444579: ['45112']
+2024-12-12 12:31:54,052 - INFO - Processed company: NW4 CARS LTD.
+2024-12-12 12:31:55,057 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW4 2EU&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:55,062 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:55,357 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW4+2EU&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:55,358 - INFO - Geocoded postal code 'NW4 2EU' to (51.58300882332992, -0.21618768832955454).
+2024-12-12 12:31:55,359 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:55,775 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/11179126 HTTP/11" 200 None
+2024-12-12 12:31:55,776 - INFO - Fetched SIC codes for company 11179126: ['81210']
+2024-12-12 12:31:55,776 - INFO - Processed company: NW4 CARPET CLEANING LIMITED.
+2024-12-12 12:31:56,778 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=SL2 3AS&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:56,782 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:57,089 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=SL2+3AS&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:57,089 - INFO - Geocoded postal code 'SL2 3AS' to (51.53744046747807, -0.6169928301971586).
+2024-12-12 12:31:57,092 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:57,502 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14508819 HTTP/11" 200 None
+2024-12-12 12:31:57,503 - INFO - Fetched SIC codes for company 14508819: ['53202']
+2024-12-12 12:31:57,504 - INFO - Processed company: NW44 LIMITED.
+2024-12-12 12:31:58,509 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=N15 6BL&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:31:58,514 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:31:58,829 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=N15+6BL&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:31:58,829 - INFO - Geocoded postal code 'N15 6BL' to (51.57698002135411, -0.06606907797423235).
+2024-12-12 12:31:58,833 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:31:59,249 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15636194 HTTP/11" 200 None
+2024-12-12 12:31:59,250 - INFO - Fetched SIC codes for company 15636194: ['68209']
+2024-12-12 12:31:59,250 - INFO - Processed company: NW49 LTD.
+2024-12-12 12:32:00,255 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=N3 1XW&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:00,258 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:00,548 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=N3+1XW&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:00,549 - INFO - Geocoded postal code 'N3 1XW' to (51.60319677715615, -0.19210427084203444).
+2024-12-12 12:32:00,553 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:00,970 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/07322808 HTTP/11" 200 None
+2024-12-12 12:32:00,971 - INFO - Fetched SIC codes for company 07322808: ['99999']
+2024-12-12 12:32:00,972 - INFO - Processed company: BURNHAM COURT NW4 RTM COMPANY LIMITED.
+2024-12-12 12:32:01,974 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW4 1AR&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:01,978 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:02,261 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW4+1AR&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:02,261 - INFO - Geocoded postal code 'NW4 1AR' to (51.59315205999715, -0.2238896096214617).
+2024-12-12 12:32:02,264 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:02,681 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09323416 HTTP/11" 200 None
+2024-12-12 12:32:02,682 - INFO - Fetched SIC codes for company 09323416: ['98000']
+2024-12-12 12:32:02,682 - INFO - Processed company: HALKIN HOUSE NW4 FREEHOLD LIMITED.
+2024-12-12 12:32:03,687 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=CR0 2EE&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:03,691 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:03,997 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=CR0+2EE&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:03,998 - INFO - Geocoded postal code 'CR0 2EE' to (51.37794202222828, -0.0965846848582234).
+2024-12-12 12:32:04,001 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:04,415 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/09799188 HTTP/11" 200 None
+2024-12-12 12:32:04,416 - INFO - Fetched SIC codes for company 09799188: ['68100']
+2024-12-12 12:32:04,417 - INFO - Processed company: LINEA NW4 LTD.
+2024-12-12 12:32:05,422 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=EN2 8DJ&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:05,425 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:05,702 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=EN2+8DJ&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:05,703 - INFO - Geocoded postal code 'EN2 8DJ' to (51.65627720751693, -0.09256433338357627).
+2024-12-12 12:32:05,706 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:06,123 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/14385796 HTTP/11" 200 None
+2024-12-12 12:32:06,124 - INFO - Fetched SIC codes for company 14385796: ['56101']
+2024-12-12 12:32:06,124 - INFO - Processed company: LONDON NW4 LTD.
+2024-12-12 12:32:07,129 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=CR0 2EE&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:07,132 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:07,446 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=CR0+2EE&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:07,448 - INFO - Geocoded postal code 'CR0 2EE' to (51.37794202222828, -0.0965846848582234).
+2024-12-12 12:32:07,451 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:07,867 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08906239 HTTP/11" 200 None
+2024-12-12 12:32:07,868 - INFO - Fetched SIC codes for company 08906239: ['82990']
+2024-12-12 12:32:07,869 - INFO - Processed company: NEWLANDS NW4 LIMITED.
+2024-12-12 12:32:08,872 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NN15 6FD&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:08,876 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:09,190 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NN15+6FD&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:09,191 - INFO - Geocoded postal code 'NN15 6FD' to (52.37550992441399, -0.7116891234660928).
+2024-12-12 12:32:09,194 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:09,627 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/13454122 HTTP/11" 200 None
+2024-12-12 12:32:09,628 - INFO - Fetched SIC codes for company 13454122: ['68100']
+2024-12-12 12:32:09,628 - INFO - Processed company: PRESTIGE PROPERTIES (NW4) LTD.
+2024-12-12 12:32:10,633 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW4 1BN&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:10,636 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:10,913 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW4+1BN&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:10,914 - INFO - Geocoded postal code 'NW4 1BN' to (51.58975336740585, -0.22094727739233283).
+2024-12-12 12:32:10,924 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:11,335 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/15369534 HTTP/11" 200 None
+2024-12-12 12:32:11,336 - INFO - Fetched SIC codes for company 15369534: ['56101']
+2024-12-12 12:32:11,336 - INFO - Processed company: SAFFRON NW4 LTD.
+2024-12-12 12:32:12,339 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=E15 1NT&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:12,342 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:12,653 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=E15+1NT&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:12,653 - INFO - Geocoded postal code 'E15 1NT' to (51.54167718617663, 0.0019008727751071194).
+2024-12-12 12:32:12,655 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:13,091 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/16068299 HTTP/11" 200 None
+2024-12-12 12:32:13,092 - INFO - Fetched SIC codes for company 16068299: ['68100']
+2024-12-12 12:32:13,092 - INFO - Processed company: 7  ERGERTON NW4 LIMITED.
+2024-12-12 12:32:14,096 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=NW4 2EL&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:14,098 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:14,402 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=NW4+2EL&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:14,403 - INFO - Geocoded postal code 'NW4 2EL' to (51.58694135158491, -0.21993117665454867).
+2024-12-12 12:32:14,405 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:14,815 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/08869198 HTTP/11" 200 None
+2024-12-12 12:32:14,816 - INFO - Fetched SIC codes for company 08869198: ['41100']
+2024-12-12 12:32:14,816 - INFO - Processed company: SOPERS YARD NW4 LIMITED.
+2024-12-12 12:32:15,817 - DEBUG - GeoNames postal code query: http://api.geonames.org/postalCodeSearchJSON?postalcode=W1H 2EJ&country=GB&maxRows=1&username=matthewjmiller07
+2024-12-12 12:32:15,819 - DEBUG - Starting new HTTP connection (1): api.geonames.org:80
+2024-12-12 12:32:16,814 - DEBUG - http://api.geonames.org:80 "GET /postalCodeSearchJSON?postalcode=W1H+2EJ&country=GB&maxRows=1&username=matthewjmiller07 HTTP/11" 200 None
+2024-12-12 12:32:16,815 - INFO - Geocoded postal code 'W1H 2EJ' to (51.51912603509591, -0.16252862677263394).
+2024-12-12 12:32:16,816 - DEBUG - Starting new HTTPS connection (1): api.company-information.service.gov.uk:443
+2024-12-12 12:32:17,225 - DEBUG - https://api.company-information.service.gov.uk:443 "GET /company/10337358 HTTP/11" 200 None
+2024-12-12 12:32:17,225 - INFO - Fetched SIC codes for company 10337358: ['98000']
+2024-12-12 12:32:17,226 - INFO - Processed company: JUBILEE LODGE NW4 FREEHOLD LIMITED.
+2024-12-12 12:32:17,245 - INFO - Data saved to nw4_geocoded_companies_with_sic.csv
